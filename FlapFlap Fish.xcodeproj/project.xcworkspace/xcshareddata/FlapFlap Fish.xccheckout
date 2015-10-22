@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>716812EC-63CC-42CF-A782-186F708002B2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FlapFlap Fish</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F6976C1A-8C7F-433F-9D4C-6AEF190E7024</key>
+		<string>https://bitbucket.org/caL_/flapflap-fish.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FlapFlap Fish v1.0/FlapFlap Fish.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F6976C1A-8C7F-433F-9D4C-6AEF190E7024</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/caL_/flapflap-fish.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F6976C1A-8C7F-433F-9D4C-6AEF190E7024</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6976C1A-8C7F-433F-9D4C-6AEF190E7024</string>
+			<key>IDESourceControlWCCName</key>
+			<string>flapflap-fish</string>
+		</dict>
+	</array>
+</dict>
+</plist>

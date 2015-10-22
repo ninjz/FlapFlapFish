@@ -1,0 +1,46 @@
+//
+// Prefix header for all source files of the 'Test' target in the 'Test' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "GameState.h"
+#import "IAPHelper.h"
+
+#define IS_IPAD_AD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPAD (NO)
+
+#define MM_BG_SPEED_DUR       ( IS_IPAD ? (0.2f) : (0.2f) )
+#define MM_GR_SPEED_DUR       ( IS_IPAD ? (2.0f) : (2.5f) )
+
+
+#define spaceBetweenTopBottom   ( IS_IPAD ? (55) : (55) )
+
+
+
+#define spaceBetweenRotatedObstacles  300 // applies for pairs of obstacles too
+
+#define CACHE_SIZE 6
+
+#define kBronze 15//10
+#define kSilver 30//30
+#define kGold   50//60
+
+#define ARC4RANDOM_MAX 0x100000000
+
+#define FLAPPYMODE_ON ([[[[GameState sharedGameState] equippedSkin] objectAtIndex:[[GameState sharedGameState] curSelectedFish]] isEqualToString:@"P011"] || [[[[GameState sharedGameState] equippedSkin] objectAtIndex:[[GameState sharedGameState] curSelectedFish]] isEqualToString:@"N011"] || [[[[GameState sharedGameState] equippedSkin] objectAtIndex:[[GameState sharedGameState] curSelectedFish]] isEqualToString:@"C011"] || [[[[GameState sharedGameState] equippedSkin] objectAtIndex:[[GameState sharedGameState] curSelectedFish]] isEqualToString:@"S008"])
+
+
+#define IS_BANNER_ON_TOP  1
+
+#endif
+
+
